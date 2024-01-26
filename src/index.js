@@ -16,7 +16,7 @@ DBConnect()
 })
 .then(()=>{
     app.listen(port , ()=>{
-        console.log(`Server started and running on port: ${port}`);
+        console.log(`Server started and running on port: ${port}\n\n\n`);
     })
 
 })
